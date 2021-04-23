@@ -560,7 +560,7 @@ button:focus{
 /*------------------------------------------------------------------
     Family
 -------------------------------------------------------------------*/
-
+/*
 .family-box{
 	padding: 70px 0px;
 }
@@ -599,7 +599,7 @@ button:focus{
 	margin: 0px;
 	font-size: 18px;
 }
-
+*/
 /*------------------------------------------------------------------
     Gallery
 -------------------------------------------------------------------*/
@@ -696,10 +696,30 @@ button:focus{
     Contact
 -------------------------------------------------------------------*/
 
-.contact-box{
-	padding: 70px 0px;
+#map-padding{
+	padding-left: 0rem;
+
 }
-.contact-block{}
+#form-padding{
+	padding-left: ;
+	padding-right: 0rem;
+}
+.mapouter{
+	width: 100%;
+}
+.contact{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.contact-box{
+	padding: 10px 10px;
+	padding-bottom: 10px;
+	
+}
+.contact-block{
+	
+}
+
 
 .contact-block .form-group .form-control{
 	background: #e6eceb;
@@ -707,7 +727,7 @@ button:focus{
 	font-size: 16px;
 	border: 0;
 	color: #222222;
-	padding: 6px 15px;
+	padding: 6px 5px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-border-radius: 3px;
@@ -784,7 +804,7 @@ select.form-control:not([size]):not([multiple]){
 	position:relative;
 	text-align:center;
 	height:500px;
-	width:845px;
+	width:100%;
 }
 .gmap_canvas {
 	  overflow:hidden;
@@ -793,6 +813,40 @@ select.form-control:not([size]):not([multiple]){
 	  width:845px;
 	}
 
+	.column {
+		float: right;
+		width: 50%;
+		padding: 1px;
+		height: 400px; /* Should be removed. Only for demonstration */
+	  }
+	  
+	  /* Clear floats after the columns */
+	  .row:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+/*Google Maps*/
+.map-container-2{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;
+	}
+	.map-container-2 iframe{
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	}
+
+/*Google Maps*/
+
+
+	.gap{
+		column-gap: 10px;
+	}
 
 
 

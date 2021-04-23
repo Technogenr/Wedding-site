@@ -67,5 +67,8 @@
 	.gallery-box ul li{
 		width: 50%;
 	}
+	.column{
+		width: 100%;
+	  }
 }
 

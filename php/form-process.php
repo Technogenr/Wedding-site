@@ -62,7 +62,7 @@ $Body .= $message;
 $Body .= "\n";
 
 // send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+$success = mail($jagdishmahanta1@gmail.com, $Wedding Message, $Body, "From:".$email);
 
 // redirect to success page
 if ($success && $errorMSG == ""){

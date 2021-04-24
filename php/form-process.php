@@ -40,7 +40,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "armanmia7@gmail.com";
+$EmailTo = "jagdishmahanta71@gmail.com";
 $Subject = "New Message Received";
 
 // prepare email body text
@@ -62,7 +62,7 @@ $Body .= $message;
 $Body .= "\n";
 
 // send email
-$success = mail($jagdishmahanta1@gmail.com, $Wedding Message, $Body, "From:".$email);
+$success = mail($EmailTo, $Subject, $Body, "From:".$email);
 
 // redirect to success page
 if ($success && $errorMSG == ""){
